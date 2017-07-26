@@ -49,20 +49,27 @@ h2 {
     text-align: center;
 }
 
+.head-img {
+    margin-left: 3%;
+    margin-right: 3%;
+    position: relative;
+}
+
 .head-img img {
-    padding-top: 10px;
+    padding-top: 1%;
     width: 100%;
 }
-.inner-wrap *{
+
+.inner-wrap * {
     font-size: 13pt;
 }
+
 .img-cover {
     position: absolute;
-    left: 3%;
-    top: 140px;
+    top: 17%;
     background-color: rgba(170, 170, 170, 0.5);
-    width: 94%;
-    height: 400px;
+    width: 100%;
+    height: 67%;
     text-align: center;
 }
 
@@ -75,21 +82,21 @@ h2 {
 }
 
 .img-cover .div-title {
-    margin-top: 100px;
+    padding-top: 8%;
 }
 
 .buttons {
-    margin-top: 30px;
+    position: relative;
 }
 
 .buttons button {
     font-family: verdana;
     font-weight: bold;
-    margin: 50px;
+    margin: 5%;
     width: 220px;
     height: 70px;
     background-color: transparent;
-    border-radius: 10px;
+    border-radius: 15px;
     border: 2px double #FFFFFF;
     cursor: pointer;
     z-index: 3;
@@ -107,11 +114,6 @@ h2 {
 .body > div {
     margin-left: 13%;
     margin-right: 13%;
-}
-
-.home-body > div {
-    margin-left: 3%;
-    margin-right: 3%;
 }
 
 .foot {
